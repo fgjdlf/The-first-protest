@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+<style>
+ #div1 .active{
+ 	background:#CB6F43;
+ 	border:none;
+ }
+#div1 div{
+	width: 200px; 
+	height: 200px;
+	line-height: 200px;
+	text-align: center;
+	font-size: 50px;
+	margin-top: 20px;
+	background: #D3EAEA;
+	border:1px solid #ccc;display: none;
+}
+
+</style>
+<script>
+window.onload=function(){
+
+	var oDiv=document.getElementById('div1');
+	var btn=oDiv.getElementsByTagName('input');
+	var aDiv=oDiv.getElementsByTagName('div');
+
+    for( var i=0; i<btn.length; i++){
+          btn[i].index=i;
+          btn[i].onclick=function(){
+           
+           for (var i = 0; i <btn.length; i++) {
+
+             	btn[i].className='';
+             	aDiv[i].style.display='none';
+           }
+            this.className='active';
+            aDiv[this.index].style.display='block';
+
+          };
+
+
+
+    }
+};
+
+
+</script>
+</head>
+<body>
+<div id="div1">
+	<input  type="button" value="我">
+	<input type="button" value="就">
+	<input type="button" value="烦">
+	<input type="button" value="你">
+	<div style="display:block">你</div>
+	<div>是</div>
+	<div>猪</div>
+	<div>吗</div> 
+</div>	
+</body>
+</html>
