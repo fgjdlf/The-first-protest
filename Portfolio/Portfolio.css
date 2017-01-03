@@ -1,0 +1,942 @@
+*{margin:0px;padding:0px;}
+body{font-family: Arial;}
+ul{list-style: none;}
+a{text-decoration: none;}
+.top{
+	height:70px;
+}
+.top_center{
+	width:840px;
+	margin:0 auto;
+}
+.topp{
+	/*font-size:22px;
+	color:#8A8A8A;
+	float: left;*/
+	background: url(images/557.jpg);
+	width:110px;
+	height:45px;
+	margin-top: 5px;
+	padding-top:20px;
+}
+.top_ul{
+	
+	font-size: 12px;
+	float: right;
+
+	margin-top: -40px;
+	margin-right:20px;
+}
+.top_ul .a{
+     float:left;
+     padding:6px 8px;
+     
+     border-radius: 5px;
+     margin-left: 15px;
+
+}
+.top_ul a{color:#8A8A8A;}
+.top_ul .a:hover{
+                  background: #F77B6F;
+                  }
+ .top_ul a:hover{color:white;}
+                 
+.colorblock{
+	width:100%;
+	height:115px;
+	background-color:#E3E3E3;
+}
+.color_cen{
+	width:1000px;
+	height:115px;
+	margin:0 auto;
+	background-color:#E3E3E3;
+}
+.ABOUT{
+	font-weight:bold;
+	color:#999;
+	float:left;
+	margin-left:70px;
+	line-height:115px;
+	font-size:22px;
+	
+}
+.color_r li{
+	float:left;
+    font-size:12px;
+    padding-left:15px;
+	line-height: 115px;
+}
+.color_r{
+     float:right;
+     margin-right:100px;
+}
+.btn{
+	height:100px;
+}
+.btn_cen{
+	height:100px;
+	width:1000px;
+	margin:0 auto;
+}
+.btnCen{
+	height:100px;
+	width:920px;
+	margin:0 auto;
+}
+.btnCen li{
+	width:50px;
+	height:30px;
+	background:#C9F5DE;
+	text-align: center;;
+	line-height: 30px;
+	font-size: 12px;
+	color:#797979;
+	border-radius: 5px;
+	margin-left: 20px;
+	float: left;
+}
+
+.btnCen li:hover{
+	cursor: pointer;
+	background: #C6DB9B;
+}
+.btnCen ul{
+	margin-top:42px;
+}
+.picture{
+	height:800px;
+}
+.picture_cen{
+	height:800px;
+	width:1000px;
+	margin: auto;
+}
+.pictureCen{
+	height:800px;
+	width:920px;
+	margin: auto;
+}
+.a{
+	position: relative;
+	float: left;
+}
+.opacity{
+	background: black;
+	width:204px;
+	height:204px;
+	opacity: 0.1;
+	position: absolute;
+	z-index: 1;
+}
+.opacity:hover{
+	opacity:0;
+	transition: opacity 0.5s;
+	cursor: pointer;
+}
+.pica{
+	background: url(images/25l.jpg) no-repeat;
+	width:204px;
+	height:204px;
+}
+.b{
+	position: relative;
+	float: left;
+	margin-left:34px;
+}
+.picb{
+	background: url(images/45.jpg) no-repeat;
+	width:204px;
+	height:204px;
+}
+.c{
+	position: relative;
+	float: left;
+	margin-left:34px;
+}
+.picc{
+	background: url(images/54l.jpg) no-repeat;
+	width:204px;
+	height:204px;
+}
+.d{
+	position: relative;
+	float: left;
+	margin-left:34px;
+}
+.picd{
+	background: url(images/0121l.jpg) no-repeat;
+	width:204px;
+	height:204px;
+}
+.f{
+	position: relative;
+	float: left;
+	margin-top: 34px;
+}
+.picf{
+	background: url(images/231.jpg) no-repeat;
+	width:204px;
+	height:204px;
+}
+.g{
+	position: relative;
+	float: left;
+	margin-top: 34px;
+	margin-left:34px;
+}
+.picg{
+	background: url(images/455.jpg) no-repeat;
+	width:204px;
+	height:204px;
+}
+.h{
+	position: relative;
+	float: left;
+	margin-top: 34px;
+	margin-left:34px;
+}
+.pich{
+	background: url(images/512.jpg) no-repeat;
+	width:204px;
+	height:204px;
+}
+.j{
+	position: relative;
+	float: left;
+	margin-top: 34px;
+	margin-left:34px;
+}
+.picj{
+	background: url(images/22.jpg) no-repeat;
+	width:204px;
+	height:204px;
+}
+.k{
+	position: relative;
+	float: left;
+	margin-top: 34px;
+}
+.pick{
+	background: url(images/584.jpg) no-repeat;
+	width:204px;
+	height:204px;
+}
+.l{
+	position: relative;
+	float: left;
+	margin-top: 34px;
+	margin-left:34px;
+}
+.picl{
+	background: url(images/588l.jpg) no-repeat;
+	width:204px;
+	height:204px;
+}
+.z{
+	position: relative;
+	float: left;
+	margin-top: 34px;
+	margin-left:34px;
+}
+.picz{
+	background: url(images/785l.jpg) no-repeat;
+	width:204px;
+	height:204px;
+}
+.x{
+	position: relative;
+	float: left;
+	margin-top: 34px;
+	margin-left:34px;
+}
+.picx{
+	background: url(images/4574l.jpg) no-repeat;
+	width:204px;
+	height:204px;
+}
+.x p{
+	z-index:5;
+	position: absolute;
+	color: #333;
+	display: none;
+	font-weight: bold;
+	letter-spacing:4px;
+	font-size: 22px;
+	left:50px;
+	top:20px;
+}
+.x:hover p{
+	display: block;
+}
+.x p:hover{
+	cursor: pointer;
+}
+.x .a{
+	z-index:5;
+	position: absolute;
+	background: white;
+	font-size: 12px;
+	line-height: 38px;
+	text-align: center;
+	color: black;
+	display: none;
+	width:38px;
+	height:38px;
+	border-radius: 50%;
+	left:50px;
+	top:70px;
+}
+.x .b{
+	z-index:5;
+	position: absolute;
+	background: white;
+	font-size: 12px;
+	line-height: 38px;
+	text-align: center;
+	color: black;
+	display: none;
+	width:38px;
+	height:38px;
+	border-radius: 50%;
+	left:80px;
+	top:70px;
+}
+.x:hover .a, .x:hover .b{
+	display: block;
+	transition: 2s;
+}
+.a p{
+	z-index:5;
+	position: absolute;
+	color: #333;
+	display: none;
+	font-weight: bold;
+	letter-spacing:8px;
+	font-size: 22px;
+	left:50px;
+	top:20px;
+}
+.a:hover p{
+	display: block;
+}
+.a p:hover{
+	cursor: pointer;
+}
+.a .a{
+	z-index:5;
+	position: absolute;
+	background: white;
+	font-size: 12px;
+	line-height: 38px;
+	text-align: center;
+	color: black;
+	display: none;
+	width:38px;
+	height:38px;
+	border-radius: 50%;
+	left:50px;
+	top:70px;
+}
+.a .b{
+	z-index:5;
+	position: absolute;
+	background: white;
+	font-size: 12px;
+	line-height: 38px;
+	text-align: center;
+	color: black;
+	display: none;
+	width:38px;
+	height:38px;
+	border-radius: 50%;
+	left:80px;
+	top:70px;
+}
+.a:hover .a, .a:hover .b{
+	display: block;
+	transition: 2s;
+}
+.b p{
+	z-index:5;
+	position: absolute;
+	color: #333;
+	display: none;
+	font-weight: bold;
+	letter-spacing:8px;
+	font-size: 22px;
+	left:50px;
+	top:20px;
+}
+.b:hover p{
+	display: block;
+}
+.b p:hover{
+	cursor: pointer;
+}
+.b .a{
+	z-index:5;
+	position: absolute;
+	background: white;
+	font-size: 12px;
+	line-height: 38px;
+	text-align: center;
+	color: black;
+	display: none;
+	width:38px;
+	height:38px;
+	border-radius: 50%;
+	left:50px;
+	top:70px;
+}
+.b .b{
+	z-index:5;
+	position: absolute;
+	background: white;
+	font-size: 12px;
+	line-height: 38px;
+	text-align: center;
+	color: black;
+	display: none;
+	width:38px;
+	height:38px;
+	border-radius: 50%;
+	left:80px;
+	top:70px;
+}
+.b:hover .a, .b:hover .b{
+	display: block;
+	transition: 2s;
+}
+.c p{
+	z-index:5;
+	position: absolute;
+	color: #333;
+	display: none;
+	font-weight: bold;
+	letter-spacing:6px;
+	font-size: 22px;
+	left:50px;
+	top:20px;
+}
+.c:hover p{
+	display: block;
+}
+.c p:hover{
+	cursor: pointer;
+}
+.c .a{
+	z-index:5;
+	position: absolute;
+	background: white;
+	font-size: 12px;
+	line-height: 38px;
+	text-align: center;
+	color: black;
+	display: none;
+	width:38px;
+	height:38px;
+	border-radius: 50%;
+	left:50px;
+	top:70px;
+}
+.c .b{
+	z-index:5;
+	position: absolute;
+	background: white;
+	font-size: 12px;
+	line-height: 38px;
+	text-align: center;
+	color: black;
+	display: none;
+	width:38px;
+	height:38px;
+	border-radius: 50%;
+	left:80px;
+	top:70px;
+}
+.c:hover .a, .c:hover .b{
+	display: block;
+	transition: 2s;
+}
+.d p{
+	z-index:5;
+	position: absolute;
+	color:#333;
+	display: none;
+	font-weight: bold;
+	letter-spacing:8px;
+	font-size: 22px;
+	left:50px;
+	top:20px;
+}
+.d:hover p{
+	display: block;
+}
+.d p:hover{
+	cursor: pointer;
+}
+.d .a{
+	z-index:5;
+	position: absolute;
+	background: white;
+	font-size: 12px;
+	line-height: 38px;
+	text-align: center;
+	color: black;
+	display: none;
+	width:38px;
+	height:38px;
+	border-radius: 50%;
+	left:50px;
+	top:70px;
+}
+.d .b{
+	z-index:5;
+	position: absolute;
+	background: white;
+	font-size: 12px;
+	line-height: 38px;
+	text-align: center;
+	color: black;
+	display: none;
+	width:38px;
+	height:38px;
+	border-radius: 50%;
+	left:80px;
+	top:70px;
+}
+.d:hover .a, .d:hover .b{
+	display: block;
+	transition: 2s;
+}
+.f p{
+	z-index:5;
+	position: absolute;
+	color: #333;
+	display: none;
+	font-weight: bold;
+	letter-spacing:8px;
+	font-size: 22px;
+	left:50px;
+	top:20px;
+}
+.f:hover p{
+	display: block;
+}
+.f p:hover{
+	cursor: pointer;
+}
+.f .a{
+	z-index:5;
+	position: absolute;
+	background: white;
+	font-size: 12px;
+	line-height: 38px;
+	text-align: center;
+	color: black;
+	display: none;
+	width:38px;
+	height:38px;
+	border-radius: 50%;
+	left:50px;
+	top:70px;
+}
+.f .b{
+	z-index:5;
+	position: absolute;
+	background: white;
+	font-size: 12px;
+	line-height: 38px;
+	text-align: center;
+	color: black;
+	display: none;
+	width:38px;
+	height:38px;
+	border-radius: 50%;
+	left:80px;
+	top:70px;
+}
+.f:hover .a, .f:hover .b{
+	display: block;
+	transition: 2s;
+}
+.g p{
+	z-index:5;
+	position: absolute;
+	color:#333;
+	display: none;
+	font-weight: bold;
+	letter-spacing:8px;
+	font-size: 22px;
+	left:50px;
+	top:20px;
+}
+.g:hover p{
+	display: block;
+}
+.g p:hover{
+	cursor: pointer;
+}
+.g .a{
+	z-index:5;
+	position: absolute;
+	background: white;
+	font-size: 12px;
+	line-height: 38px;
+	text-align: center;
+	color: black;
+	display: none;
+	width:38px;
+	height:38px;
+	border-radius: 50%;
+	left:50px;
+	top:70px;
+}
+.g .b{
+	z-index:5;
+	position: absolute;
+	background: white;
+	font-size: 12px;
+	line-height: 38px;
+	text-align: center;
+	color: black;
+	display: none;
+	width:38px;
+	height:38px;
+	border-radius: 50%;
+	left:80px;
+	top:70px;
+}
+.g:hover .a, .g:hover .b{
+	display: block;
+	transition: 2s;
+}
+.h p{
+	z-index:5;
+	position: absolute;
+	color:#333;
+	display: none;
+	font-weight: bold;
+	letter-spacing:8px;
+	font-size: 22px;
+	left:50px;
+	top:20px;
+}
+.h:hover p{
+	display: block;
+}
+.h p:hover{
+	cursor: pointer;
+}
+.h .a{
+	z-index:5;
+	position: absolute;
+	background: white;
+	font-size: 12px;
+	line-height: 38px;
+	text-align: center;
+	color: black;
+	display: none;
+	width:38px;
+	height:38px;
+	border-radius: 50%;
+	left:50px;
+	top:70px;
+}
+.h .b{
+	z-index:5;
+	position: absolute;
+	background: white;
+	font-size: 12px;
+	line-height: 38px;
+	text-align: center;
+	color: black;
+	display: none;
+	width:38px;
+	height:38px;
+	border-radius: 50%;
+	left:80px;
+	top:70px;
+}
+.h:hover .a, .h:hover .b{
+	display: block;
+	transition: 2s;
+}
+.j p{
+	z-index:5;
+	position: absolute;
+	color:#333;
+	display: none;
+	font-weight: bold;
+	letter-spacing:8px;
+	font-size: 22px;
+	left:50px;
+	top:20px;
+}
+.j:hover p{
+	display: block;
+}
+.j p:hover{
+	cursor: pointer;
+}
+.j .a{
+	z-index:5;
+	position: absolute;
+	background: white;
+	font-size: 12px;
+	line-height: 38px;
+	text-align: center;
+	color: black;
+	display: none;
+	width:38px;
+	height:38px;
+	border-radius: 50%;
+	left:50px;
+	top:70px;
+}
+.j .b{
+	z-index:5;
+	position: absolute;
+	background: white;
+	font-size: 12px;
+	line-height: 38px;
+	text-align: center;
+	color: black;
+	display: none;
+	width:38px;
+	height:38px;
+	border-radius: 50%;
+	left:80px;
+	top:70px;
+}
+.j:hover .a, .j:hover .b{
+	display: block;
+	transition: 2s;
+}
+.k p{
+	z-index:5;
+	position: absolute;
+	color:#333;
+	display: none;
+	font-weight: bold;
+	letter-spacing:4px;
+	font-size: 22px;
+	left:50px;
+	top:20px;
+}
+.k:hover p{
+	display: block;
+}
+.k p:hover{
+	cursor: pointer;
+}
+.k .a{
+	z-index:5;
+	position: absolute;
+	background: white;
+	font-size: 12px;
+	line-height: 38px;
+	text-align: center;
+	color: black;
+	display: none;
+	width:38px;
+	height:38px;
+	border-radius: 50%;
+	left:50px;
+	top:70px;
+}
+.k .b{
+	z-index:5;
+	position: absolute;
+	background: white;
+	font-size: 12px;
+	line-height: 38px;
+	text-align: center;
+	color: black;
+	display: none;
+	width:38px;
+	height:38px;
+	border-radius: 50%;
+	left:80px;
+	top:70px;
+}
+.k:hover .a, .k:hover .b{
+	display: block;
+	transition: 2s;
+}
+.l p{
+	z-index:5;
+	position: absolute;
+	color:#333;
+	display: none;
+	font-weight: bold;
+	letter-spacing:4px;
+	font-size: 22px;
+	left:50px;
+	top:20px;
+}
+.l:hover p{
+	display: block;
+}
+.l p:hover{
+	cursor: pointer;
+}
+.l .a{
+	z-index:5;
+	position: absolute;
+	background: white;
+	font-size: 12px;
+	line-height: 38px;
+	text-align: center;
+	color: black;
+	display: none;
+	width:38px;
+	height:38px;
+	border-radius: 50%;
+	left:50px;
+	top:70px;
+}
+.l .b{
+	z-index:5;
+	position: absolute;
+	background: white;
+	font-size: 12px;
+	line-height: 38px;
+	text-align: center;
+	color: black;
+	display: none;
+	width:38px;
+	height:38px;
+	border-radius: 50%;
+	left:80px;
+	top:70px;
+}
+.l:hover .a, .l:hover .b{
+	display: block;
+	transition: 2s;
+}
+.z p{
+	z-index:5;
+	position: absolute;
+	color:#333;
+	display: none;
+	font-weight: bold;
+	letter-spacing:4px;
+	font-size: 22px;
+	left:50px;
+	top:20px;
+}
+.z:hover p{
+	display: block;
+}
+.z p:hover{
+	cursor: pointer;
+}
+.z .a{
+	z-index:5;
+	position: absolute;
+	background: white;
+	font-size: 12px;
+	line-height: 38px;
+	text-align: center;
+	color: black;
+	display: none;
+	width:38px;
+	height:38px;
+	border-radius: 50%;
+	left:50px;
+	top:70px;
+}
+.z .b{
+	z-index:5;
+	position: absolute;
+	background: white;
+	font-size: 12px;
+	line-height: 38px;
+	text-align: center;
+	color: black;
+	display: none;
+	width:38px;
+	height:38px;
+	border-radius: 50%;
+	left:80px;
+	top:70px;
+}
+.z:hover .a, .z:hover .b{
+	display: block;
+	transition: 2s;
+}
+
+.bottom{
+	height:210px;
+	width:100%;
+	background: #A2A2A2;
+}
+.bottom_center{
+	width:1000px;
+	height:210px;
+	font-size: 12px;
+	background:#A2A2A2;
+	margin:0 auto;
+}
+.bottom_l{
+	float: left;
+	color: white;
+	padding-left: 40px;
+	padding-top: 22px;
+	line-height:24px;
+}
+.bottom_c{
+	padding-top: 22px;
+	float:left;
+	padding-left: 120px;
+	color: white;
+	line-height:30px;
+}
+.bottom_r{
+	padding-top: 25px;
+	float:left;
+	padding-left: 300px;
+	color: white;
+	width:120px;
+}
+.box{
+	margin-left: -5px;
+}
+.box li{
+	width:25px;
+	height:25px;
+	background:white;
+	opacity:0.1;float:left;
+	margin-top:10px; 
+	margin-left:5px;
+}
+.bottom li:hover{
+	color:red;cursor: pointer;
+}
+.nav li:hover{
+	color:red;cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
